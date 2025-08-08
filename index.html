@@ -1,52 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Chetan Nagulakonda | Cybersecurity Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Education">Education</a>
-            <a href="#Skills">Skills</a>
-          </div>
-    <div class="home">
-        <div class="info">
-             <h1>I am Chetan Nagulakonda</h1>
-        </br>
-        <div class="para">
-            <p>
-              Hello all! This is Chetan pursing Btech 3rd year in Computer Science and Engineering
-              <br>Driven and passionate BTech student in Computer Science with a keen interest in Cybersecurity.</br>
-              Looking for a internship at a leading tech company to gain exposure to cutting-edge on coding and want hands-on-experience.
-              <br>Eager to apply my security skills knowledge to solve real-world problems and contribute to the advancement of the field. </br>
-              <div class="arrow"></br>More about me <i class="fa-solid fa-arrow-down"></i></div></div>
-            </p>
-        </div>
-    </br>
-        <a href="https://github.com/user-attachments/files/16675900/Resume_1.docx"><button class="button">Resume</button></a>
-    </br>
-    <div class="social">
-        <a href="https://www.instagram.com/chetan_n77/"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-         <div class="social1">
-            <a href="https://www.linkedin.com/in/nagulakonda-g-n-v-satya-sai-chetan-865b35294/"><i class="fa-brands fa-linkedin-in"></i></a>
-         </div>
-                <div class="social2">
-                    <a href="https://github.com/Chetanvenkat"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <div class="image">
-                    <img src="https://github.com/user-attachments/assets/f5861900-7efd-4f45-9801-9e844111a5d7">
-                </div>     
-                                                    
-    </div>
-</section>
 
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">WELCOME</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="fade-in">NAGULAKONDA G N V SATYA SAI CHETAN</h1>
+                <p class="fade-in" style="animation-delay: 0.3s;">Driven B.Tech student in Computer Science with a passion for Cybersecurity.</p>
+                <div class="social-links fade-in" style="animation-delay: 0.6s;">
+                    <a href="https://www.linkedin.com/in/nagulakonda-g-n-v-satya-sai-chetan-865b35294/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Chetanvenkat" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:nagulakondavenkat85@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="#projects" class="cta-button fade-in" style="animation-delay: 0.9s;">View My Work</a>
+            </div>
+            <div class="scroll-down-indicator">
+                <a href="#about" aria-label="Scroll down">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <img src="https://github.com/user-attachments/assets/f5861900-7efd-4f45-9801-9e844111a5d7" alt="Chetan Nagulakonda" class="profile-image">
+                    <div class="about-text">
+                        <p>Driven and passionate B.Tech student in Computer Science. Eager to shell out my skills and knowledge to address evolving challenges.</p>
+                        <p>I'm currently seeking a summer internship at a leading tech company to gain exposure and hands-on experience in the field. I am self-motivated, detail-oriented, and always eager to learn new technologies.</p>
+                        <a href="RESUME.pdf" download="Chetan_Nagulakonda_Resume.pdf" class="btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <section id="skills" class="content-section-alt">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <i class="fas fa-shield-halved card-icon"></i>
+                            <h3>Technical Skills</h3>
+                            <ul>
+                                <li>Cybersecurity Fundamentals</li>
+                                <li>Networking</li>
+                                <li>SIEM (Security Information and Event Management)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <i class="fas fa-tools card-icon"></i>
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Burp Suite</li>
+                                <li>Nmap</li>
+                                <li>Wireshark</li>
+                                <li>Splunk</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <i class="fas fa-code card-icon"></i>
+                            <h3>Programming</h3>
+                            <ul>
+                                <li>Python</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Personal Security Projects</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="card-title">Secure File Transfer System</h3>
+                            <p class="card-tools">Tools: Python, Wireshark</p>
+                            <ul>
+                                <li>Established encrypted file transfer using OpenSSL.</li>
+                                <li>Monitored sessions with Wireshark to verify encryption.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h3 class="card-title">SIEM Integration with CI/CD Pipeline</h3>
+                            <p class="card-tools">Tools: Jenkins, Splunk, Python</p>
+                            <ul>
+                                <li>Automated log forwarding from Jenkins to Splunk.</li>
+                                <li>Built custom Splunk dashboards to visualize security events.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="content-section-alt">
+            <div class="container">
+                <h2 class="section-title">Education & Certifications</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <i class="fas fa-university card-icon"></i>
+                            <h3>Alliance University, Bengaluru</h3>
+                            <p>B.Tech in CSE (Cybersecurity)</p>
+                            <p><em>Aug 2022 - May 2026</em></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <i class="fas fa-certificate card-icon"></i>
+                            <h3>Certifications</h3>
+                            <ul>
+                                <li>Introduction to Cybersecurity - Cisco</li>
+                                <li>Modern Security Operations - Google Cloud</li>
+                                <li>SOAR for Enterprise Security - Codio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chetan Nagulakonda. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
-</html> 
+</html>
