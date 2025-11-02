@@ -1,3 +1,4 @@
+
 /* --- CSS Reset & Variables --- */
 :root {
     --primary-color: #50C878; /* Your brand's emerald green */
@@ -429,4 +430,20 @@ body {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+.card-content .btn {
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.card-content .btn:hover {
+    background-color: #45b06a;
 }
